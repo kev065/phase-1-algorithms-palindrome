@@ -1,4 +1,5 @@
 function isPalindrome(word) {
+
   // Write your algorithm here
   let wordReversedArr = [];
   for (let i = word.length + 1; i > -1; i--) {
@@ -11,9 +12,7 @@ function isPalindrome(word) {
   } else {
     return false;
   }
-
 }
-
 isPalindrome("word")
 
 
@@ -34,7 +33,7 @@ Add written explanation of your solution here
   If they are the same, the function returns true. Otherwise, it returns false.
 */ 
 
-// You can run `node index.js` to view these console logs
+// You can run `node index.js` to view these console logs.
 if (require.main === module) {
   // add your own custom tests in here
   console.log("Expecting: true");
